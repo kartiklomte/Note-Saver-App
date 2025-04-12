@@ -62,7 +62,7 @@ const Home = () => {
         className="p-2 bg-blue-800 rounded-md h-[40px] w-[16%] pb-2 shadow-2xl hover:bg-sky-700"
         onClick={createPaste}
       >
-        {pasteId ? "Update Paste" : "Crete My Paste"}
+        {pasteId ? "Update Paste" : "Create My Paste"}
       </button>
 
       </div>
