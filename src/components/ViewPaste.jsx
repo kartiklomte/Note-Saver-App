@@ -45,7 +45,7 @@ const ViewPaste = () => {
 
 
         <textarea
-          className='bg-gray-200 rounded-2xl min-w-[500px] p-4 mt-3 border border-black w-full'
+          className='bg-gray-200 rounded-2xl min-w-[500px] p-4 mt-3 border border-black w-full text-black'
           placeholder='enter content here'
           value={paste.content}
           disabled
